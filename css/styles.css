@@ -14,7 +14,6 @@ label {
   font-size: 15px;
 }
 
-
 .question1,
 .question2,
 .question3,
@@ -46,6 +45,15 @@ label {
 .btn {
   background-color: #28ccbe;
   border-color: #28ccbe;
+  margin: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.card {
+  margin-bottom: 50px;
 }
 
 #epicodus-logo {
