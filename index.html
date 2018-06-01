@@ -18,49 +18,82 @@
     </div>
 
     <form id="quizquestions" class="needs-validation" novalidate>
-      <h3>First, please tell us a little bit about you:</h3>
-      <div class="form-row">
-        <div class="col-md-4 mb-3">
-          <label for="validationCustom01">First name</label>
-          <input type="text" class="form-control" id="firstName" placeholder="First name" required>
-          <div class="valid-feedback">
-            Hey there!
+      <div class="nameInputSlots">
+        <h3>First, please tell us a little bit about you:</h3>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom01">First name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="First name" required>
+            <div class="valid-feedback">
+              Hey there!
+            </div>
           </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <label for="validationCustom02">Last name</label>
-          <input type="text" class="form-control" id="lastName" placeholder="Last name" required>
-          <div class="valid-feedback">
-            Looks good!
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom02">Last name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Last name" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
           </div>
         </div>
       </div>
 
-    <div id="allQuestions">
-      <div class="row">
+      <div id="allQuestions">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card center" style="width: 25rem;">
+              <img class="card-img-top" src="img/question1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">
+                <div class="question1">
+                  <h3>What interests you the most about coding?</h3>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="question1" id="q1-design" value="2">
+                      Making the user interface look and operate nicely.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="question1" id="q1-ruby" value="6">
+                      Making features function properly behind the scenes.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="question1" id="q1-reactC" value="4">
+                      A combination of the above would be optimal.
+                    </label>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="col-lg-6">
           <div class="card center" style="width: 25rem;">
-            <img class="card-img-top" src="img/question1.jpg" alt="Card image cap">
+            <img class="card-img-top" src="img/question2.jpg" alt="Card image cap">
             <div class="card-body">
               <p class="card-text">
-              <div class="question1">
-                <h3>What interests you the most about coding?</h3>
+              <div class="question2">
+                <h3>Which job description interests you the most?</h3>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="question1" id="q1-design" value="2">
-                    Making the user interface look and operate nicely.
+                    <input type="radio" name="question2" id="q2-reactC" value="4">
+                    Building and updating internal software for large enterprise companies.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="question1" id="q1-ruby" value="6">
-                    Making features function properly behind the scenes.
+                    <input type="radio" name="question2" id="q2-design" value="2">
+                    Designing and styling webpages and user interfaces.
                   </label>
                 </div>
                 <div class="radio">
                   <label>
-                    <input type="radio" name="question1" id="q1-reactC" value="4">
-                    A combination of the above would be optimal.
+                    <input type="radio" name="question2" id="q2-ruby" value="6">
+                    Building many applications in a short period of time for smaller-sized companies.
                   </label>
                 </div>
               </p>
@@ -68,37 +101,6 @@
           </div>
         </div>
       </div>
-
-      <div class="col-lg-6">
-        <div class="card center" style="width: 25rem;">
-          <img class="card-img-top" src="img/question2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">
-            <div class="question2">
-              <h3>Which job description interests you the most?</h3>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="question2" id="q2-reactC" value="4">
-                  Building and updating internal software for large enterprise companies.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="question2" id="q2-design" value="2">
-                  Designing and styling webpages and user interfaces.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="question2" id="q2-ruby" value="6">
-                  Building many applications in a short period of time for smaller-sized companies.
-                </label>
-              </div>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
 
       <div class="col-lg-6">
         <div class="card center" style="width: 25rem;">
@@ -162,57 +164,75 @@
         </div>
       </div>
     </div>
-  </div>
 
-        <div class="question5">
-          <h3>Have you researched our tracks on your own? If so, which interests you the most? </h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question5" id="q5-reactC" value="4">
-              Yes, C# and React.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question5" id="q5-ruby" value="6">
-              Yes, Ruby on Rails.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question5" id="q5-design" value="2">
-              Yes, UX/UI Design.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question5" id="q5-none" value="0">
-              No, I'm starting with this assessment first.
-            </label>
+
+      <div class="col-lg-6">
+        <div class="card center" style="width: 25rem;">
+          <img class="card-img-top" src="img/question5.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">
+            <div class="question5">
+              <h3>Have you researched our tracks on your own? If so, which interests you the most? </h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" id="q5-reactC" value="4">
+                  Yes, C# and React.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" id="q5-ruby" value="6">
+                  Yes, Ruby on Rails.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" id="q5-design" value="2">
+                  Yes, UX/UI Design.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question5" id="q5-none" value="0">
+                  No, I'm starting with this assessment first.
+                </label>
+              </div>
+            </p>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="question5">
-          <h3>Of the following, which is your preferred job title?</h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question6" id="q6-reactC" value="4">
-              Full Stack Developer
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question6" id="q5-design" value="2">
-              Frontend Developer
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="question6" id="q5-ruby" value="6">
-              Backend Developer
-            </label>
+    <div class="col-lg-6">
+      <div class="card center" style="width: 25rem;">
+        <img class="card-img-top" src="img/question6.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">
+            <div class="question6">
+              <h3>Of the following, which is your preferred job title?</h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question6" id="q6-reactC" value="4">
+                  Full Stack Developer
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question6" id="q5-design" value="2">
+                  Frontend Developer
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question6" id="q5-ruby" value="6">
+                  Backend Developer
+                </label>
+              </div>
+            </p>
           </div>
         </div>
+      </div>
+    </div>
 
         <div class="question7">
           <h3>When working on projects, do you prefer:</h3>
