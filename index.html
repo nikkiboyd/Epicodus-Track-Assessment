@@ -17,14 +17,28 @@
       <h3 id="titleSlogan">What's the best fit for you?</h3>
     </div>
 
-    <form id="quizquestions">
+    <form id="quizquestions" class="needs-validation" novalidate>
       <h3>First, please tell us a little bit about you:</h3>
       <div class="form-row">
         <div class="col">
-          <input id="firstName" type="text" class="form-control" placeholder="First name">
+          <label for="validationCustom01">First name</label>
+          <input id="firstName" type="text" class="form-control" placeholder="Please enter your first name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Please enter your first name.
+          </div>
         </div>
         <div class="col">
-          <input id="lastName" type="text" class="form-control" placeholder="Last name">
+          <label for="validationCustom02">Last name</label>
+          <input id="lastName" type="text" class="form-control" placeholder="Please enter your last name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Please enter your last name.
+          </div>
         </div>
       </div>
       <div id="allQuestions">
@@ -257,6 +271,7 @@
         <button type="submit" class="btn btn-primary">Submit Assessment</button>
       </div>
     </form>
+    
         <div class="jumbotron" id="resultBox">
           <h2 class="center result" id="resultsText">Based on your results, you should take...</h2>
           <h2 class="center">Thanks for taking the survey, <span id="greeting"></span>!</h2>
