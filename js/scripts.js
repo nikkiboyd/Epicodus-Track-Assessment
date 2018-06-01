@@ -40,7 +40,7 @@ $(document).ready(function(event) {
       $('.result').html('<h2 class="center">One or more questions left blank.</h2><img class="center" src="img/error.png"/>');
     }
 
-    $("#resultBox").show();
+    $("#resultBox").slideDown();
 
     $('html, body').animate({
       scrollTop: $("#resultBox").offset().top
