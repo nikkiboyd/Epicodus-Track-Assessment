@@ -1,5 +1,6 @@
 body {
   color: #323332;
+  font-family: 'Varela Round', sans-serif;
 }
 
 h2 {
@@ -7,7 +8,8 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size:16px;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 label {
@@ -36,13 +38,15 @@ label {
 
 .jumbotron {
   background-color: #28ccbe;
-  color: white;
   text-align: center;
   margin: 10px;
   padding: 10px;
 }
 
 .btn {
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
   background-color: #28ccbe;
   border-color: #28ccbe;
   margin: 30px;
@@ -65,11 +69,15 @@ label {
 }
 
 #titleText {
-  font-size: 30px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
 }
 
 #titleSlogan {
   font-size: 20px;
+  color: black;
 }
 
 #resultBox {
