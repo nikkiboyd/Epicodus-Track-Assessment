@@ -9,5 +9,8 @@ $(document).ready(function(event) {
     } else if (points >= 15) {
       $('.result').html('<h2 class="center">Design/CSS!</h2><img class="center" src="img/design.png"/>');
     } else {
-      $('.result').html('<h2 class="center">One or more questions left blank.</h2><img class="center" src="img/error.png"/>');;
+      $('.result').html('<h2 class="center">One or more questions left blank.</h2><img class="center" src="img/error.png"/>');
     }
+    event.preventDefault();
+    });
+  });
