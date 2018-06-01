@@ -9,6 +9,7 @@
         if (form.checkValidity() === false) {
           event.preventDefault();
           event.stopPropagation();
+          $('html, body').animate({ scrollTop: 0 }, 'medium');
         }
         form.classList.add('was-validated');
       }, false);
