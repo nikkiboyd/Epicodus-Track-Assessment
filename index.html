@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="img/favicon.png" rel="shortcut icon" type="image/png">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
   <title>Epicodus Track Assessment</title>
@@ -11,11 +12,21 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1 id="titleText" class="center">Epicodus Track Assessment</h1>
-      <h3>Which Epicodus track is right for you?</h3>
+      <img id="epicodus-logo" src="img/epicodus.png">
+      <h1 id="titleText" class="center">Track Assessment</h1>
+      <h3 id="titleSlogan">What's the best fit for you?</h3>
     </div>
 
     <form id="quizquestions">
+      <h3>First, please tell us a little bit about you:</h3>
+      <div class="form-row">
+        <div class="col">
+          <input id="firstName" type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+          <input id="lastName" type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
       <div id="allQuestions">
         <div class="question1">
           <h3>What interests you the most about coding?</h3>
@@ -247,8 +258,8 @@
       </div>
     </form>
         <div class="jumbotron" id="resultBox">
-          <h2 class="center" id="resultsText">You should take...</h2>
-          <h2 class="result center">
+          <h2 class="center result" id="resultsText">Based on your results, you should take...</h2>
+          <h2 class="center">Thanks for taking the survey, <span id="greeting"></span>!</h2>
         </div>
       </div>
     </div>

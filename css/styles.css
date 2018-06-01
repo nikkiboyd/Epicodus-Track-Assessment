@@ -2,6 +2,18 @@ body {
   color: #323332;
 }
 
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+label {
+  font-size: 15px;
+}
+
 .question1,
 .question2,
 .question3,
@@ -26,13 +38,29 @@ body {
   background-color: #28ccbe;
   color: white;
   text-align: center;
+  margin: 10px;
+  padding: 10px;
 }
 
 .btn {
   background-color: #28ccbe;
   border-color: #28ccbe;
 }
+
+#epicodus-logo {
+  width: 20%;
+}
+
+#titleText {
+  font-size: 30px;
+}
+
+#titleSlogan {
+  font-size: 20px;
+}
+
 #resultBox {
+  display: none;
   background-color: white;
   color: #323332;
   font-weight: lighter;
@@ -42,4 +70,8 @@ body {
   margin-top: 10px;
   padding-top: 10px;
   text-align: center;
+}
+
+#greeting {
+  text-transform: capitalize;
 }
