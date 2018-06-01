@@ -1,0 +1,30 @@
+.question1,
+.question2,
+.question3,
+.question4,
+.question5 {
+  padding: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.jumbotron {
+  background-color: #28ccbe;
+  color: white;
+  text-align: center;
+}
+
+#resultBox {
+  background-color: white;
+  border-color: #28ccbe;
+  border-width: medium;
+  border-style: dashed;
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
