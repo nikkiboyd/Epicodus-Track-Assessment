@@ -20,27 +20,22 @@
     <form id="quizquestions" class="needs-validation" novalidate>
       <h3>First, please tell us a little bit about you:</h3>
       <div class="form-row">
-        <div class="col">
+        <div class="col-md-4 mb-3">
           <label for="validationCustom01">First name</label>
-          <input id="firstName" type="text" class="form-control" placeholder="Please enter your first name" required>
+          <input type="text" class="form-control" id="firstName" placeholder="First name" required>
           <div class="valid-feedback">
             Looks good!
-          </div>
-          <div class="invalid-feedback">
-            Please enter your first name.
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-4 mb-3">
           <label for="validationCustom02">Last name</label>
-          <input id="lastName" type="text" class="form-control" placeholder="Please enter your last name" required>
+          <input type="text" class="form-control" id="lastName" placeholder="Last name" required>
           <div class="valid-feedback">
             Looks good!
-          </div>
-          <div class="invalid-feedback">
-            Please enter your last name.
           </div>
         </div>
       </div>
+
       <div id="allQuestions">
         <div class="question1">
           <h3>What interests you the most about coding?</h3>
@@ -271,7 +266,7 @@
         <button type="submit" class="btn btn-primary">Submit Assessment</button>
       </div>
     </form>
-    
+
         <div class="jumbotron" id="resultBox">
           <h2 class="center result" id="resultsText">Based on your results, you should take...</h2>
           <h2 class="center">Thanks for taking the survey, <span id="greeting"></span>!</h2>
