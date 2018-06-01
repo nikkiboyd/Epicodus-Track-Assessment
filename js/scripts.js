@@ -18,7 +18,6 @@
 })();
 
 $(document).ready(function(event) {
-
   $("form#quizquestions").submit(function(event) {
     var firstName = $("#firstName").val();
     var lastName = $("#lastName").val();
@@ -42,6 +41,12 @@ $(document).ready(function(event) {
     }
 
     $("#resultBox").show();
+
+    $('html, body').animate({
+      scrollTop: $("#resultBox").offset().top
+    }, 2000);
+    return false;
+
     event.preventDefault();
-    });
   });
+});
