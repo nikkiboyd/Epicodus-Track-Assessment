@@ -1,3 +1,7 @@
+body {
+  color: #323332;
+}
+
 .question1,
 .question2,
 .question3,
@@ -19,8 +23,14 @@
   text-align: center;
 }
 
+.btn {
+  background-color: #28ccbe;
+  border-color: #28ccbe;
+}
 #resultBox {
   background-color: white;
+  color: #323332;
+  font-weight: lighter;
   border-color: #28ccbe;
   border-width: medium;
   border-style: dashed;
