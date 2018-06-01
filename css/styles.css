@@ -8,7 +8,7 @@ h2 {
 }
 
 h3 {
-  font-size:16px;
+  font-size: 16px;
   font-family: 'Archivo Black', sans-serif;
 }
 
@@ -16,24 +16,15 @@ label {
   font-size: 15px;
 }
 
-.question1,
-.question2,
-.question3,
-.question4,
-.question5,
-.question6,
-.question7,
-.question8,
-.question9,
-.question10 {
+.question1, .question2, .question3, .question4, .question5, .question6, .question7, .question8, .question9, .question10 {
   padding: 10px;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .jumbotron {
@@ -60,6 +51,7 @@ label {
   text-align: center;
   margin: 40px;
 }
+
 .card {
   margin-bottom: 50px;
 }
