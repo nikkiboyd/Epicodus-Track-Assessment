@@ -12,7 +12,7 @@ _This application is used as an assessment tool for prospective Epicodus student
 
 * _1. Open the link below_
 * _GitHub Pages:_
-* _https://nikkiboyd.github.io/portfolio/_
+* _https://nikkiboyd.github.io/track-quiz_
 * _2. Enter your first and last name. If left blank, application will bring users back to the top of the page and alert them to re-enter their information._
 * _3. Answer each of the 10 questions. Error message will appear in results box if any questions are left blank._
 * _4. Click the "Submit!" button below to return the results from the assessment. Points for each of the three tracks (React/C#, Ruby on Rails, and Design/CSS) are assigned to the answers that most closely correspond with the given track._
