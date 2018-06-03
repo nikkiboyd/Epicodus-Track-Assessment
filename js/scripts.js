@@ -18,7 +18,7 @@
 })();
 
 $(document).ready(function(event) {
-  $("form#quizquestions").submit(function(event) {
+  $("form#regForm").submit(function(event) {
     var firstName = $("#firstName").val();
     var lastName = $("#lastName").val();
     $("#greeting").html(firstName + " " + lastName);
