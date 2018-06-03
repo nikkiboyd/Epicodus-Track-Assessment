@@ -8,6 +8,8 @@
 
 _This application is used as an assessment tool for prospective Epicodus students. It will ask users a series of questions about their background, employment aspirations, and learning styles to suggest a track based on their selected answers. This project was Nikki's first application using JavaScript and jQuery._
 
+_NOTE: This is an out of date version submitted for the 5 PM Friday deadline. Please check out the branch "Multipage" to view the most updated version of this application (worked on independently over the weekend)._
+
 ## Setup/Installation Requirements
 
 * _1. Open the link below_
